@@ -1,0 +1,502 @@
+.pageContainer {
+  min-height: 100vh;
+  width: 100%;
+  background: #f8fafc;
+}
+
+/* Cinematic Hero Banner */
+.heroBanner {
+  position: relative;
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 2rem 4rem 2rem;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.65) 0%,
+    rgba(15, 23, 42, 0.35) 45%,
+    rgba(15, 23, 42, 0.88) 100%
+  );
+}
+
+.heroInner {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: #cbd5e1;
+  margin-bottom: 1.25rem;
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(12px);
+  padding: 0.35rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.breadcrumbLink {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbLink:hover {
+  color: #4ade80;
+}
+
+.breadcrumbCurrent {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Badge */
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.heroTitle {
+  font-size: clamp(2.3rem, 4.5vw, 3.8rem);
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.heroSubtitle {
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.65;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ========================================================
+   PLANNING FORM SECTION
+   ======================================================== */
+.formSection {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem 6rem;
+}
+
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Custom Tour Form Card */
+.formCard {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 2.5rem 3rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+}
+
+.formHeader {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.formTag {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #16a34a;
+  letter-spacing: 0.06em;
+}
+
+.formTitle {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.formDesc {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.55;
+}
+
+.formGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rowTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.rowThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.fieldLabel {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #334155;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.inputField,
+.selectField {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  color: #0f172a;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+}
+
+.inputField:focus,
+.selectField:focus,
+.textareaField:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.12);
+}
+
+.textareaField {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  color: #0f172a;
+  outline: none;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 1.15rem;
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(22, 163, 74, 0.35);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.submitBtn:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.45);
+}
+
+/* ========================================================
+   SIDEBAR & TRUST CARDS
+   ======================================================== */
+.sidebarCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.trustBox {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+}
+
+.trustBoxTitle {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trustList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trustListItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.trustIconWrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #dcfce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.trustText {
+  display: flex;
+  flex-direction: column;
+}
+
+.trustText strong {
+  font-size: 0.94rem;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.trustText span {
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+/* Sample Packages Reference Card */
+.sampleRatesCard {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.sampleTitle {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.sampleSub {
+  font-size: 0.84rem;
+  color: #94a3b8;
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
+}
+
+.sampleList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sampleItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.sampleName {
+  display: flex;
+  flex-direction: column;
+}
+
+.sampleName strong {
+  font-size: 0.92rem;
+  color: #f1f5f9;
+}
+
+.sampleName span {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.samplePrice {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #4ade80;
+}
+
+/* Direct Support Card */
+.supportCard {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 18px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.supportInfo h4 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #166534;
+  margin-bottom: 2px;
+}
+
+.supportInfo p {
+  font-size: 0.82rem;
+  color: #15803d;
+  margin: 0;
+}
+
+.supportCallLink {
+  margin-left: auto;
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.supportCallLink:hover {
+  background: #15803d;
+}
+
+/* ========================================================
+   RESPONSIVE DESIGN
+   ======================================================== */
+@media (max-width: 1024px) {
+  .layoutGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .formCard {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    min-height: 360px;
+    padding: 3rem 1.25rem 2.5rem 1.25rem;
+  }
+
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+
+  .formSection {
+    padding: 2.5rem 1.25rem 4rem;
+  }
+
+  .formCard {
+    padding: 1.5rem;
+  }
+
+  .rowTwo,
+  .rowThree {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .supportCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .supportCallLink {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .formSection {
+    padding: 1.5rem 0.85rem 3rem;
+  }
+  .formCard {
+    padding: 1.25rem 0.85rem;
+  }
+  .submitBtn {
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroBanner {
+    padding: 2.5rem 0.5rem 2rem 0.5rem;
+  }
+  .formSection {
+    padding: 1.25rem 0.5rem 2rem;
+  }
+  .formCard {
+    padding: 1rem 0.65rem;
+  }
+  .trustBox {
+    padding: 1.25rem 0.75rem;
+  }
+}

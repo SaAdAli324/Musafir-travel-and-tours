@@ -1,0 +1,73 @@
+[
+  {
+    "id": "toyota-grand-cabin",
+    "name": "Toyota Grand Cabin (High Roof)",
+    "category": "Executive Passenger Van",
+    "capacity": "10 – 13 Passengers",
+    "luggage": "8 – 10 Bags",
+    "image": "/images/transports/grand-cabin.jpg",
+    "ratePerDay": "PKR 14,000 / Day + Fuel",
+    "popularRoutes": "Islamabad to Swat, Naran, Hunza, Skardu",
+    "features": [
+      "Dual Air Conditioning & Heating",
+      "High-Roof Spacious Headroom",
+      "Adjustable High-Back Seats",
+      "Experienced Hill Driver Included",
+      "Bluetooth / Audio Sound System",
+      "USB Charging Ports"
+    ]
+  },
+  {
+    "id": "toyota-saloon-coaster",
+    "name": "Toyota Saloon Coaster",
+    "category": "Luxury Tour Bus",
+    "capacity": "20 – 22 Passengers",
+    "luggage": "18 – 20 Bags",
+    "image": "/images/transports/saloon-coaster.webp",
+    "ratePerDay": "PKR 22,000 / Day + Fuel",
+    "popularRoutes": "Karachi / Islamabad to Northern Corridors",
+    "features": [
+      "Super Saloon Luxury Interior",
+      "Reclining Ergonomic Seats",
+      "Powerful Central Climate Control",
+      "Dedicated Microphone & PA System",
+      "Experienced Senior Mountain Driver",
+      "Overhead Cabin Storage"
+    ]
+  },
+  {
+    "id": "toyota-prado-suv",
+    "name": "Toyota Prado TX / V8 (4x4)",
+    "category": "VIP Luxury SUV",
+    "capacity": "3 – 4 Passengers",
+    "luggage": "3 – 4 Bags",
+    "image": "/images/transports/prado-suv.webp",
+    "ratePerDay": "PKR 20,000 / Day + Fuel",
+    "popularRoutes": "Honeymoon & VIP Private Excursions",
+    "features": [
+      "4-Wheel Drive Full Off-Road Capability",
+      "Plush Leather Upholstery",
+      "Climate Control AC / Heating",
+      "Sunroof & Privacy Glass",
+      "Executive Chauffeur in Uniform",
+      "Bottled Water & Refreshments Setup"
+    ]
+  },
+  {
+    "id": "toyota-corolla-sedan",
+    "name": "Toyota Corolla / Yaris GLi",
+    "category": "Economy Family Sedan",
+    "capacity": "3 – 4 Passengers",
+    "luggage": "2 – 3 Bags",
+    "image": "/images/transports/corolla-sedan.jfif",
+    "ratePerDay": "PKR 7,500 / Day + Fuel",
+    "popularRoutes": "Islamabad City, Murree, Swat Expressway",
+    "features": [
+      "Chilled Air Conditioning",
+      "Fuel-Efficient Modern Model",
+      "Professional Polite Driver",
+      "Clean Sanitized Interiors",
+      "Luggage Trunk Space"
+    ]
+  }
+]

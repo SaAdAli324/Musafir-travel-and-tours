@@ -1,0 +1,117 @@
+[
+  {
+    "id": "hunza-valley",
+    "name": "Hunza Valley",
+    "region": "Gilgit-Baltistan",
+    "tagline": "The Shangri-La of the Karakoram - Forts, Glaciers & Turquoise Lakes",
+    "description": "Famed for its awe-inspiring views of Mount Rakaposhi, pristine apricot orchards, ancient heritage forts, and the dramatic Passu Cones standing along the legendary Karakoram Highway.",
+    "image": "/images/hunza.jpg",
+    "bestSeason": "Apr – Nov (Autumn colors in Oct/Nov)",
+    "highlights": [
+      "Rakaposhi View Point",
+      "800-Yr Baltit & Altit Forts",
+      "Attabad Lake Boating",
+      "Passu Cones & Glacier",
+      "Hussaini Suspension Bridge",
+      "Khunjerab Pass (15,397 ft)"
+    ],
+    "startingPrice": 33500,
+    "tourLink": "/tours/hunza-china-border-7-days"
+  },
+  {
+    "id": "skardu-baltistan",
+    "name": "Skardu & Baltistan",
+    "region": "Gilgit-Baltistan",
+    "tagline": "World's Highest Cold Deserts, Glamping Pods & Alpine Lakes",
+    "description": "Gateway to the mighty 8,000m peaks of K2 and Broad Peak. Marvel at towering sand dunes framed by snow-clad peaks, historic royal palaces, and emerald glacial waters.",
+    "image": "/images/skardu.jpg",
+    "bestSeason": "May – Oct",
+    "highlights": [
+      "Shangrila Resort (Lower Kachura)",
+      "Upper Kachura Lake",
+      "Sarfaranga Cold Desert",
+      "Katpana Dunes & Starry Nights",
+      "400-Yr Serena Shigar Fort",
+      "Khaplu Palace & Chaqchan Mosque",
+      "Manthoka 180-ft Waterfall"
+    ],
+    "startingPrice": 38500,
+    "tourLink": "/tours/skardu-bashu-8-days"
+  },
+  {
+    "id": "swat-kalam",
+    "name": "Swat & Kalam Valley",
+    "region": "Khyber Pakhtunkhwa",
+    "tagline": "Switzerland of the East - Alpine Pine Forests & Crystal Rivers",
+    "description": "A lush haven of rushing mountain streams, dense cedar and pine woods, thrilling chairlifts at Malam Jabba, and the stunning glacial waters of Mohadand Lake.",
+    "image": "/images/swat.jpg",
+    "bestSeason": "All Year Round (Skiing in Winter)",
+    "highlights": [
+      "Malam Jabba Ski Resort",
+      "Kalam Valley Alpine Meadows",
+      "Mohadand Lake (4x4 Jeep)",
+      "Ushu Pine Forest",
+      "Fizaghat & Swat River",
+      "Behrain & Madiyan Trout Farms"
+    ],
+    "startingPrice": 24500,
+    "tourLink": "/tours/swat-kalam-5-days"
+  },
+  {
+    "id": "naran-kaghan-babusar",
+    "name": "Naran, Kaghan & Babusar",
+    "region": "Khyber Pakhtunkhwa",
+    "tagline": "High Mountain Passes & Fairy-Tale Alpine Lakes",
+    "description": "Experience Pakistan's most loved summer mountain corridor. Witness the mythical Lake Saif-ul-Malook, serene Lulusar Lake, and summit the cold heights of Babusar Top.",
+    "image": "/images/group.jpg",
+    "bestSeason": "Jun – Oct (Babusar opens late June)",
+    "highlights": [
+      "Lake Saif-ul-Malook",
+      "Babusar Top (13,700 ft)",
+      "Lulusar Lake",
+      "Kiwi Waterfall",
+      "Balakot Riverside",
+      "Naran Traditional Bazaar"
+    ],
+    "startingPrice": 25500,
+    "tourLink": "/tours/naran-babusar-5-days"
+  },
+  {
+    "id": "kashmir-neelum-taobut",
+    "name": "Azad Kashmir & Neelum Valley",
+    "region": "Azad Kashmir",
+    "tagline": "Heaven on Earth - Emerald Forests, River LOC & Arang Kel",
+    "description": "Draped in thick conifer forests and framed by roaring mountain rivers, Neelum Valley features fairy-tale wooden hamlets like Arang Kel and pristine untamed villages like Taobut.",
+    "image": "/images/kashmir.png",
+    "bestSeason": "May – Nov",
+    "highlights": [
+      "Arang Kel (Pearl of Neelum)",
+      "Taobut Valley & River Bank",
+      "Sharda Peeth Ancient Ruins",
+      "Keran Border Point",
+      "Dhani & Kutton Waterfalls",
+      "Scenic Cable Car & River Crossing"
+    ],
+    "startingPrice": 24500,
+    "tourLink": "/tours/kashmir-arangkel-5-days"
+  },
+  {
+    "id": "kumrat-valley",
+    "name": "Kumrat Valley & Katora Lake",
+    "region": "Khyber Pakhtunkhwa",
+    "tagline": "The Hidden Gem - Dense Deodar Canopies, Rushing Rivers & Glacial Basins",
+    "description": "Unspoiled northern wilderness featuring colossal deodar cedar forests, crystal cold streams of Panjkora River, and high alpine treks up to Katora Lake.",
+    "image": "/images/gallery/gallery-6.png",
+    "bestSeason": "May – Oct",
+    "highlights": [
+      "Kumrat Pine Forest",
+      "Kala Chashma (Black Spring)",
+      "Thal Wooden Heritage Mosque",
+      "Jahaz Banda High Meadows",
+      "Katora Glacial Lake Trek",
+      "Panjkora River Riverside Camping"
+    ],
+    "startingPrice": 25500,
+    "tourLink": "/tours/kumrat-valley-5-days"
+  }
+]

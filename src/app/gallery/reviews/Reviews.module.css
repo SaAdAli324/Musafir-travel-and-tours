@@ -1,0 +1,291 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+.heroHeader {
+  position: relative;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%),
+              url('/images/honeymoon.jpg') center/cover no-repeat;
+  color: white;
+  padding: 5.5rem 2rem 4.5rem 2rem;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(59, 177, 67, 0.2);
+  border: 1px solid rgba(59, 177, 67, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  color: #d1d5db;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.6;
+}
+
+/* Rating Stats Box */
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statVal {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #4ade80;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: #e5e7eb;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.mainContent {
+  max-width: 1240px;
+  margin: 4rem auto 0 auto;
+  padding: 0 2rem;
+}
+
+/* Reviews Grid */
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.reviewCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #eaf0eb;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.reviewCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.cardTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.tripBadge {
+  display: inline-block;
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.commentText {
+  color: #334155;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.cardAuthor {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1.15rem;
+  margin-top: auto;
+}
+
+.authorName {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 2px 0;
+}
+
+.verifiedIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #16a34a;
+}
+
+.authorMeta {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Call to Action */
+.ctaBox {
+  background: linear-gradient(135deg, #064e3b 0%, #111827 100%);
+  color: white;
+  border-radius: 24px;
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.ctaBox h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.8rem;
+}
+
+.ctaBox p {
+  color: #d1d5db;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.whatsappReviewBtn {
+  background: #25d366;
+  color: white;
+  padding: 1rem 2.2rem;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 1.05rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+.whatsappReviewBtn:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .reviewsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .statsRow {
+    gap: 1.5rem;
+  }
+  .mainContent {
+    padding: 0 1.25rem;
+    margin-top: 3rem;
+  }
+  .heroHeader {
+    padding: 3.5rem 1.25rem 2.5rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 0 0.85rem;
+    margin-top: 2rem;
+  }
+  .reviewCard {
+    padding: 1.5rem 1.15rem;
+    border-radius: 16px;
+  }
+  .ctaBox {
+    padding: 2rem 1rem;
+    border-radius: 18px;
+  }
+  .ctaBox h3 {
+    font-size: 1.45rem;
+  }
+  .whatsappReviewBtn {
+    width: 100%;
+    padding: 0.85rem 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .mainContent {
+    padding: 0 0.5rem;
+  }
+  .heroHeader {
+    padding: 2.75rem 0.5rem 2rem 0.5rem;
+  }
+  .statsRow {
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+  .statVal {
+    font-size: 1.5rem;
+  }
+  .statLabel {
+    font-size: 0.72rem;
+  }
+  .reviewCard {
+    padding: 1.15rem 0.75rem;
+  }
+  .commentText {
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+  .tripBadge {
+    font-size: 0.76rem;
+    padding: 0.25rem 0.55rem;
+  }
+  .authorName {
+    font-size: 0.92rem;
+  }
+}

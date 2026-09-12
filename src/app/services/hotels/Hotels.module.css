@@ -1,0 +1,389 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+.heroHeader {
+  position: relative;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.78) 0%, rgba(15, 23, 42, 0.48) 50%, rgba(15, 23, 42, 0.88) 100%),
+              url('/images/hotels/skardu-arcadian.jpg') center/cover no-repeat;
+  color: white;
+  padding: 5.5rem 2rem 4.5rem 2rem;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(59, 177, 67, 0.2);
+  border: 1px solid rgba(59, 177, 67, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  color: #d1d5db;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  max-width: 100%;
+}
+
+.filterBtn {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.55rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.filterBtnActive {
+  background: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.mainContent {
+  max-width: 1240px;
+  margin: 4rem auto 0 auto;
+  padding: 0 2rem;
+}
+
+.hotelsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.hotelCard {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef3f0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hotelCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.ratingBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  color: #facc15;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.destBadge {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cardBody {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hotelName {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 0.3rem;
+}
+
+.hotelLocation {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hotelDesc {
+  color: #4b5563;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.amenitiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.5rem;
+}
+
+.amenityChip {
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f0f4f2;
+  padding-top: 1.2rem;
+  margin-top: auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.priceCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.priceLabel {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.priceVal {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.footerActions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.detailsBtn {
+  background: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+  padding: 0.65rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.detailsBtn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+}
+
+.bookBtn {
+  background: #25d366;
+  color: white;
+  padding: 0.65rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.bookBtn:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+}
+
+/* Policy Card */
+.policyCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #e2ece5;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.policyCard h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.policyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.5rem;
+}
+
+.policyItem {
+  background: #fcfdfc;
+  border: 1px solid #e9f0ec;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.policyItem h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.policyItem p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hotelsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .mainContent {
+    padding: 0 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .policyCard {
+    padding: 1.75rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 0 1rem;
+  }
+
+  .cardBody {
+    padding: 1.25rem;
+  }
+
+  .cardFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+
+  .priceCol {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footerActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .detailsBtn, .bookBtn {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroHeader {
+    padding: 2.75rem 0.6rem 2rem 0.6rem;
+  }
+
+  .filterBar {
+    gap: 0.4rem;
+  }
+
+  .filterBtn {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .mainContent {
+    padding: 0 0.5rem;
+  }
+
+  .footerActions {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .priceCol {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+}

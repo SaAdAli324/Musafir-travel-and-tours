@@ -1,0 +1,249 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+.heroHeader {
+  background: linear-gradient(135deg, #111827 0%, #064e3b 100%);
+  color: white;
+  padding: 6rem 2rem 5rem 2rem;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(59, 177, 67, 0.2);
+  border: 1px solid rgba(59, 177, 67, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  color: #d1d5db;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.mainContent {
+  max-width: 1000px;
+  margin: 4rem auto 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.policyCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #e2ece5;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+}
+
+.policyCard h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.policyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.policyTable th,
+.policyTable td {
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #edf4f0;
+}
+
+.policyTable th {
+  background: #f0f7f3;
+  color: #166534;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
+.policyTable tr:last-child td {
+  border-bottom: none;
+}
+
+.policyList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.policyList li {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.bulletIcon {
+  color: var(--primary-color);
+  font-weight: 800;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.checklistGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.checklistItem {
+  background: #f9fbf9;
+  border: 1px solid #e1efe6;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  font-size: 0.92rem;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.paymentBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.bankCard {
+  background: #f7faf8;
+  border: 1px solid #cce8d5;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.bankCard h3 {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.officeCard {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.officeCard h3 {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.mapLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.mapLink:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 0 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .policyCard {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .heroHeader {
+    padding: 3.5rem 1.25rem 2.5rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 0 0.85rem;
+  }
+
+  .policyCard {
+    padding: 1.25rem 0.85rem;
+    border-radius: 16px;
+  }
+
+  .policyCard h2 {
+    font-size: 1.25rem;
+  }
+
+  .policyTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .policyTable th,
+  .policyTable td {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .mainContent {
+    padding: 0 0.5rem;
+  }
+
+  .heroHeader {
+    padding: 2.75rem 0.5rem 2rem 0.5rem;
+  }
+
+  .policyCard {
+    padding: 1rem 0.65rem;
+  }
+
+  .bankCard,
+  .officeCard {
+    padding: 1rem 0.75rem;
+  }
+}

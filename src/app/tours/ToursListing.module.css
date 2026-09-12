@@ -1,0 +1,454 @@
+/* ========================================================
+   CINEMATIC TOURS LISTING & BANNER STYLES
+   ======================================================== */
+.pageContainer {
+  min-height: 100vh;
+  width: 100%;
+  background: #f8fafc;
+}
+
+/* Cinematic Hero Banner */
+.heroBanner {
+  position: relative;
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 2rem 4rem 2rem;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.65) 0%,
+    rgba(15, 23, 42, 0.35) 45%,
+    rgba(15, 23, 42, 0.85) 100%
+  );
+}
+
+.heroInner {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: #cbd5e1;
+  margin-bottom: 1.25rem;
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(12px);
+  padding: 0.35rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.breadcrumbLink {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbLink:hover {
+  color: #4ade80;
+}
+
+.breadcrumbCurrent {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Badge */
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.heroTitle {
+  font-size: clamp(2.3rem, 4.5vw, 3.8rem);
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.heroSubtitle {
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 760px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.65;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Filter Bar */
+.filterBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.filterBtn {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f8fafc;
+  padding: 0.55rem 1.25rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+  background: rgba(34, 197, 94, 0.3);
+  border-color: #4ade80;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.filterBtnActive {
+  background: #16a34a;
+  border-color: #16a34a;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(22, 163, 74, 0.4);
+}
+
+/* ========================================================
+   CARDS SECTION
+   ======================================================== */
+.cardsSection {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem 6rem;
+}
+
+.sectionBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.countText {
+  font-size: 0.95rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 2.5rem;
+}
+
+/* Tour Card */
+.tourCard {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #eef3f0;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.tourCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.posterWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f1f5f9;
+}
+
+.durationBadge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.categoryTag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.cardBody {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tourTitle {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.4rem;
+  line-height: 1.25;
+}
+
+.tagline {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+  line-height: 1.45;
+}
+
+.highlightsList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: #f8fafc;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.86rem;
+  color: #334155;
+  font-weight: 600;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1.25rem;
+  margin-top: auto;
+}
+
+.priceCol {
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
+}
+
+.priceLabel {
+  font-size: 0.74rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.priceVal {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #16a34a;
+  white-space: nowrap;
+}
+
+.priceVal small {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.exploreBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 0.75rem 1.35rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.tourCard:hover .exploreBtn {
+  background: #16a34a;
+  transform: translateX(2px);
+  color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .heroBanner {
+    min-height: 380px;
+    padding: 3.5rem 1.5rem 3rem 1.5rem;
+  }
+
+  .cardsGrid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    min-height: 320px;
+    padding: 2.75rem 1.25rem 2.25rem 1.25rem;
+  }
+
+  .heroTitle {
+    font-size: clamp(1.8rem, 6vw, 2.3rem);
+  }
+
+  .heroSubtitle {
+    font-size: 0.92rem;
+  }
+
+  .cardsSection {
+    padding: 2.5rem 1.25rem 4rem;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardsSection {
+    padding: 2rem 0.85rem 3rem;
+  }
+
+  .cardBody {
+    padding: 1.25rem 1rem;
+  }
+
+  .tourTitle {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 0.86rem;
+    margin-bottom: 1rem;
+  }
+
+  .highlightsList {
+    padding: 0.85rem 1rem;
+    gap: 0.4rem;
+  }
+
+  .highlightItem {
+    font-size: 0.8rem;
+  }
+
+  .priceVal {
+    font-size: 1.22rem;
+  }
+
+  .exploreBtn {
+    padding: 0.7rem 1.15rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .cardsSection {
+    padding: 1.5rem 0.5rem 2.5rem;
+  }
+
+  .cardBody {
+    padding: 1rem 0.75rem;
+  }
+
+  .tourTitle {
+    font-size: 1.15rem;
+  }
+
+  .cardFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .priceCol {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .priceVal {
+    font-size: 1.15rem;
+  }
+
+  .exploreBtn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+}

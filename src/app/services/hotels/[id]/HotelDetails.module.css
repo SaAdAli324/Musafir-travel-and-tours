@@ -1,0 +1,1237 @@
+.pageContainer {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem 2rem;
+  font-family: inherit;
+  color: #1e293b;
+  width: 100%;
+  overflow-x: clip;
+  box-sizing: border-box;
+}
+
+/* Breadcrumb Bar */
+.breadcrumbBar {
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumbContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #64748b;
+  flex-wrap: wrap;
+}
+
+.breadcrumbLink {
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbLink:hover {
+  color: #16a34a;
+}
+
+.breadcrumbSep {
+  color: #cbd5e1;
+}
+
+.breadcrumbCurrent {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+/* Property Header */
+.propertyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.headerLeft {
+  flex: 1;
+}
+
+.badgeRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.categoryBadge {
+  background: #f0fdf4;
+  color: #15803d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+}
+
+.destinationBadge {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(29, 78, 216, 0.2);
+}
+
+.ratingBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #fffbeb;
+  color: #b45309;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.reviewCount {
+  color: #78716c;
+  font-weight: 500;
+  font-size: 0.76rem;
+}
+
+.hotelTitle {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+}
+
+.locationRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #475569;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.pricePill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pricePillLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.pricePillAmount {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #16a34a;
+  line-height: 1.2;
+}
+
+.pricePillAmount small {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.quickReserveBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.65rem 1.35rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  box-shadow: 0 4px 15px rgba(22, 163, 74, 0.3);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.quickReserveBtn:hover {
+  background: #15803d;
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+/* ========================================================
+   INTERACTIVE MULTI-PHOTO GALLERY
+   ======================================================== */
+.gallerySection {
+  margin-bottom: 2.5rem;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mosaicGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  height: 480px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.mainImageCol {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.mainImageCol img {
+  transition: transform 0.5s ease;
+}
+
+.mainImageCol:hover img {
+  transform: scale(1.03);
+}
+
+.mainImageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.6) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.mainImageCol:hover .mainImageOverlay {
+  opacity: 1;
+}
+
+.viewBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sideThumbsCol {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  height: 100%;
+}
+
+.thumbTile {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.thumbTile img {
+  transition: transform 0.4s ease;
+}
+
+.thumbTile:hover img {
+  transform: scale(1.05);
+}
+
+.thumbActive {
+  border-color: #16a34a;
+}
+
+.moreOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.moreOverlay:hover {
+  background: rgba(15, 23, 42, 0.8);
+}
+
+/* Horizontal Ribbon */
+.thumbRibbon {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.ribbonItem {
+  position: relative;
+  width: 90px;
+  height: 65px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.ribbonItem:hover {
+  opacity: 0.9;
+}
+
+.ribbonActive {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2);
+}
+
+/* Lightbox Modal */
+.lightboxModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(12px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lightboxContent {
+  position: relative;
+  width: 90vw;
+  max-width: 1100px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightboxImageWrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.closeBtn {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.closeBtn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.navBtn:hover {
+  background: #16a34a;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.navBtnPrev { left: -60px; }
+.navBtnNext { right: -60px; }
+
+.lightboxFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1rem;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.counterText {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hotelCaption {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+/* Key Highlights Ribbon */
+.highlightsRibbon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1rem;
+  background: #f8fafc;
+  padding: 1.25rem 1.75rem;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.highlightIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #dcfce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ========================================================
+   MAIN CONTENT LAYOUT (Two Columns)
+   ======================================================== */
+.contentLayout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detailCard {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.cardHeadingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cardHeading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+  line-height: 1.3;
+}
+
+.headingBadge {
+  background: #f0fdf4;
+  color: #16a34a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+}
+
+.cardText {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* Room Tiers */
+.roomsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.roomCard {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  background: #fbfcfe;
+  transition: all 0.2s ease;
+}
+
+.roomCard:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+.roomHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.roomName {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.roomSpecs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.roomSpecItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.roomFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.roomFeatChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+}
+
+.roomFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #eef2f6;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.roomPriceBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.roomPriceLabel {
+  font-size: 0.72rem;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.roomPriceVal {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #16a34a;
+}
+
+.roomPriceVal small {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.roomBookBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.55rem 1.15rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.roomBookBtn:hover {
+  background: #15803d;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Amenities Grid */
+.amenitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.amenityItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.amenityCheck {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #dcfce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Verification Checklist Card */
+.verificationCard {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.verifyHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.verifyTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+
+.verifySubtitle {
+  font-size: 0.88rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.verifyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.verifyItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.verifyItem strong {
+  font-size: 0.92rem;
+  color: #0f172a;
+}
+
+.verifyItem span {
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+/* Location & Nearby */
+.locationDetailWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.exactAddress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.nearbyList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.nearbyChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+}
+
+/* Policies */
+.policiesGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.policyRow {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 0.92rem;
+  border-bottom: 1px dashed #e2e8f0;
+  padding-bottom: 0.65rem;
+}
+
+.policyLabel {
+  font-weight: 700;
+  color: #0f172a;
+  min-width: 140px;
+}
+
+.policyVal {
+  color: #475569;
+}
+
+/* ========================================================
+   RIGHT COLUMN (Sticky Sidebar)
+   ======================================================== */
+.rightCol {
+  position: relative;
+}
+
+.stickySidebar {
+  position: sticky;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inquiryCard {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.inquiryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.priceWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarPriceLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.sidebarPrice {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #16a34a;
+  line-height: 1.2;
+}
+
+.sidebarPrice small {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.verifiedStamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f0fdf4;
+  color: #16a34a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(22, 163, 74, 0.25);
+}
+
+.quickHighlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.quickHItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: #334155;
+  font-weight: 600;
+}
+
+.actionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.sidebarWhatsAppBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.95rem;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 0.96rem;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(22, 163, 74, 0.35);
+  transition: all 0.2s ease;
+}
+
+.sidebarWhatsAppBtn:hover {
+  background: #15803d;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(22, 163, 74, 0.45);
+}
+
+.sidebarCallBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+  padding: 0.85rem;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.sidebarCallBtn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.supportNote {
+  font-size: 0.8rem;
+  color: #64748b;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.needHelpCard {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 1.75rem;
+}
+
+.needHelpCard h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.needHelpCard p {
+  font-size: 0.84rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.customTripLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #86efac;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.customTripLink:hover {
+  gap: 10px;
+  color: #4ade80;
+}
+
+/* ========================================================
+   RELATED PROPERTIES SECTION
+   ======================================================== */
+.relatedSection {
+  margin-top: 4.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.relatedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.relatedTag {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #16a34a;
+  letter-spacing: 0.06em;
+}
+
+.relatedTitle {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 0.25rem;
+}
+
+.viewAllHotelsLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #16a34a;
+  text-decoration: none;
+}
+
+.viewAllHotelsLink:hover {
+  text-decoration: underline;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.relatedCard {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.relatedCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.relatedImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.relatedRating {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.relatedContent {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.relatedDest {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #16a34a;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.relatedName {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.85rem;
+}
+
+.relatedPrice {
+  margin-top: auto;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.relatedPrice small {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* ========================================================
+   RESPONSIVE DESIGN
+   ======================================================== */
+@media (max-width: 1024px) {
+  .pageContainer {
+    padding: 1.5rem 1.25rem 4rem 1.25rem;
+  }
+
+  .contentLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .stickySidebar {
+    position: static;
+  }
+
+  .mosaicGrid {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .mainImageCol {
+    height: 360px;
+  }
+
+  .sideThumbsCol {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    height: 120px;
+  }
+
+  .navBtnPrev { left: 10px; }
+  .navBtnNext { right: 10px; }
+}
+
+@media (max-width: 768px) {
+  .propertyHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headerRight {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .quickReserveBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .highlightsRibbon {
+    grid-template-columns: 1fr;
+    padding: 1rem 1.25rem;
+  }
+
+  .mainImageCol {
+    height: 280px;
+  }
+
+  .sideThumbsCol {
+    height: 90px;
+  }
+
+  .detailCard {
+    padding: 1.5rem;
+  }
+
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    padding: 1.25rem 0.85rem 3rem 0.85rem;
+  }
+
+  .hotelTitle {
+    font-size: 1.45rem;
+  }
+
+  .highlightsRibbon {
+    padding: 0.85rem;
+  }
+
+  .detailCard {
+    padding: 1.25rem 0.85rem;
+    border-radius: 16px;
+  }
+
+  .mainImageCol {
+    height: 220px;
+  }
+
+  .sideThumbsCol {
+    height: 75px;
+    gap: 6px;
+  }
+
+  .roomTypesGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .roomCard {
+    padding: 1.15rem 0.85rem;
+  }
+
+  .roomFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .roomBookBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .relatedHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .pageContainer {
+    padding: 1rem 0.5rem 2.5rem 0.5rem;
+  }
+
+  .hotelTitle {
+    font-size: 1.25rem;
+  }
+
+  .detailCard {
+    padding: 1rem 0.6rem;
+  }
+
+  .mainImageCol {
+    height: 180px;
+  }
+
+  .sideThumbsCol {
+    height: 60px;
+  }
+}

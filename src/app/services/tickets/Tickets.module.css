@@ -1,0 +1,412 @@
+.pageContainer {
+  min-height: 100vh;
+  background-color: #fafcfb;
+  padding-bottom: 6rem;
+}
+
+.heroHeader {
+  position: relative;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.78) 0%, rgba(15, 23, 42, 0.48) 50%, rgba(15, 23, 42, 0.88) 100%),
+              url('/images/skardu.jpg') center/cover no-repeat;
+  color: white;
+  padding: 5.5rem 2rem 4.5rem 2rem;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(59, 177, 67, 0.2);
+  border: 1px solid rgba(59, 177, 67, 0.4);
+  color: #4ade80;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  color: #d1d5db;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.mainContent {
+  max-width: 1000px;
+  margin: 4rem auto 0 auto;
+  padding: 0 2rem;
+}
+
+/* Ticketing Card */
+.ticketCard {
+  background: white;
+  border-radius: 24px;
+  padding: 3rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2ece5;
+  margin-bottom: 4rem;
+}
+
+.tabsRow {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 2px solid #f0f4f2;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.tabBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f4f6f5;
+  border: 1px solid #e5e7eb;
+  padding: 0.75rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #4b5563;
+  cursor: pointer;
+  white-space: normal;
+  text-align: left;
+  line-height: 1.35;
+  transition: all 0.2s ease;
+}
+
+.tabBtnActive {
+  background: var(--primary-color) !important;
+  color: white !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 4px 12px rgba(59, 177, 67, 0.3);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.inputField {
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.submitBtn {
+  width: 100%;
+  background: #25d366;
+  color: white;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.35;
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+  transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(37, 211, 102, 0.4);
+}
+
+/* Pricing Section */
+.pricingSection {
+  background: white;
+  border-radius: 24px;
+  padding: 3rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2ece5;
+  margin-bottom: 4rem;
+}
+
+.pricingHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.pricingHeader h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.pricingHeader p {
+  color: #6b7280;
+  font-size: 1.05rem;
+}
+
+.pricingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.pricingCategory {
+  background: #fbfcfe;
+  border: 1px solid #eef3f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.categoryTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #16a34a;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #e2ece5;
+  padding-bottom: 0.75rem;
+}
+
+.pricingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed #e2ece5;
+}
+
+.pricingItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.pricingClass {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.pricingPrice {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.95rem;
+}
+
+.pricingNote {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #b45309;
+  line-height: 1.5;
+}
+
+/* Service Benefits */
+.benefitsRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.benefitCard {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 16px;
+  border: 1px solid #eef3f0;
+  text-align: center;
+}
+
+.benefitIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #f0fdf4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+}
+
+.benefitCard h4 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.benefitCard p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Ticket Policy */
+.policyCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #e2ece5;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.policyCard h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.policyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.5rem;
+}
+
+.policyItem {
+  background: #fcfdfc;
+  border: 1px solid #e9f0ec;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.policyItem h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.policyItem p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 0 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .ticketCard,
+  .pricingSection {
+    padding: 1.75rem 1.25rem;
+    border-radius: 18px;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .policyCard {
+    padding: 1.75rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 0 0.85rem;
+  }
+
+  .ticketCard,
+  .pricingSection {
+    padding: 1.25rem 0.9rem;
+  }
+
+  .tabsRow {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .tabBtn {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0.75rem 0.85rem;
+    font-size: 0.88rem;
+  }
+
+  .submitBtn {
+    font-size: 0.95rem;
+    padding: 0.9rem 0.75rem;
+  }
+
+  .pricingItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroHeader {
+    padding: 2.75rem 0.5rem 2rem 0.5rem;
+  }
+
+  .mainContent {
+    padding: 0 0.5rem;
+  }
+
+  .ticketCard,
+  .pricingSection {
+    padding: 1rem 0.65rem;
+  }
+
+  .tabBtn {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.65rem;
+  }
+
+  .inputField {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.92rem;
+  }
+
+  .submitBtn {
+    font-size: 0.88rem;
+    padding: 0.85rem 0.5rem;
+  }
+}

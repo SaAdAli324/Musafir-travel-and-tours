@@ -1,0 +1,110 @@
+{
+  "kidsPolicy": [
+    {
+      "tier": "Up to 3 Years",
+      "rule": "FREE of charge (No separate seat; infant carried by parents)."
+    },
+    {
+      "tier": "3 to 8 Years",
+      "rule": "Child category — 50% of package cost with a dedicated jumper / folding seat."
+    },
+    {
+      "tier": "Above 8 Years",
+      "rule": "Full adult package charges apply."
+    }
+  ],
+  "refundPolicy": [
+    {
+      "condition": "Cancellation 7 Days Before Trip",
+      "refund": "50% Refund of total advance"
+    },
+    {
+      "condition": "Cancellation 5 Days Before Trip",
+      "refund": "30% Refund of total advance"
+    },
+    {
+      "condition": "Cancellation Less Than 3 Days Before Departure",
+      "refund": "NO Refund"
+    },
+    {
+      "condition": "Leaving Trip Mid-Way",
+      "refund": "No refund if a traveler leaves the trip after departure for any personal reason."
+    },
+    {
+      "condition": "Natural Disasters / Roadblocks En Route",
+      "refund": "If a trip is discontinued due to unavoidable natural circumstances, remaining amount refunded per actual calculation."
+    },
+    {
+      "condition": "Cancellation by Management / Govt Restrictions",
+      "refund": "FULL 100% Refund if cancelled a day prior due to government directives or management issues."
+    },
+    {
+      "condition": "Processing Timeline",
+      "refund": "Approved refunds are credited within 5 – 6 working days."
+    }
+  ],
+  "bookingPolicy": [
+    "Select your package & receive a free confirmed quotation.",
+    "Provide verified member CNIC / ID details.",
+    "50% Advance Payment required at least 7 days before departure.",
+    "Payment proof/receipt must be shared on Musafir Pakistan official WhatsApp (+92-336-683-2018).",
+    "The remaining 50% payment must be cleared 1 day before departure.",
+    "If remaining dues are not cleared, tour manager / guide will not permit boarding.",
+    "Payments accepted via Online Bank Transfer, Cash at Karachi Head Office or Islamabad Hotel.",
+    "EasyPaisa / JazzCash transactions carry 2% additional platform charges."
+  ],
+  "generalTravelPolicies": [
+    "Every traveler must carry a valid original CNIC and vaccination card. Married couples must carry a copy of their Marriage Certificate.",
+    "Foreign travelers are NOT permitted to join northern tours without a valid No Objection Certificate (NOC) issued by the Government of Pakistan. Must be communicated prior to booking.",
+    "Travelers must arrive at the designated pickup point at least 30 minutes before departure and report to the Tour Manager.",
+    "Departures may experience delays due to political situations, weather conditions, or highway clearance. Travelers are requested to cooperate with patience.",
+    "Weapons, narcotics, alcohol, or illegal substances are strictly prohibited on all Musafir Pakistan trips.",
+    "Ethical, respectful behavior towards fellow group members, women, and locals is mandatory. Misconduct will result in immediate cancellation of participation.",
+    "Seat selection in group vehicles is NOT allowed. Seating is managed and rotated by the Tour Guide with priority to families and senior citizens.",
+    "Each traveler is allowed a maximum of 20 KG luggage and is responsible for managing their personal bags.",
+    "Package prices may be revised in the rare event of major fuel price hikes by the government, even after initial reservation.",
+    "Sightseeing points may be skipped or altered due to time management, snowfall, or local administration guidelines. Alternatives provided where possible."
+  ],
+  "packingChecklist": [
+    "Original CNIC & Marriage Certificate Copy (for couples)",
+    "Personal Medication & Basic First-Aid essentials",
+    "Warm Clothes, Thermal Layers, Heavy Jacket & Woolen Socks",
+    "Comfortable Trekking / Walking Shoes (Grip soles)",
+    "Power Bank & Charging Cables",
+    "Sunglasses & Sunscreen (High UV in mountain passes)",
+    "Neck Pillow & Water Bottle",
+    "Personal Toiletries & Tissues",
+    "Compact Body Bag / Daypack for daily items",
+    "Raincoat / Waterproof Windcheater (Weather dependent)",
+    "Warm Gloves & Woolen Beanie / Cap",
+    "Emergency Cash in hand (ATMs in northern areas are frequently offline)",
+    "Plastic / Zipper Pouches for damp or used laundry"
+  ],
+  "hotelPolicy": [
+    "Hotel Check-in: 3:00 PM | Hotel Check-out: 12:00 PM.",
+    "Early Check-in or Late Check-out is subject to room availability at PKR 1,000 per hour.",
+    "Travelers are strictly responsible for their personal valuables and luggage after checkout.",
+    "Guests must adhere to hotel management rules and local district administration policies.",
+    "In case of extreme weather, electrical, or governmental issues, hotel staff & Musafir team coordinate emergency lodging solutions.",
+    "Any extra hotel services (heaters, laundry, special room service orders) must be cleared directly at checkout."
+  ],
+  "transportPolicy": [
+    "Vehicles are provided strictly with verified, experienced mountain drivers.",
+    "If Transport-Only service is rented: fuel, toll taxes, traffic violation fines, and driver food/stay are the client's responsibility.",
+    "Any interior vehicle damage caused by negligence will be charged to the traveler.",
+    "Vehicle must be kept clean; otherwise cleaning charges may apply upon return.",
+    "Overspeeding, hazardous driving requests, illegal activities, or sub-renting are strictly prohibited.",
+    "CNIC copy is mandatory for all transport bookings.",
+    "Transport Cancellation: 3 Days Prior — 50% Refund; Less than 3 Days — NO Refund.",
+    "Standard Driving Hours: 8:00 AM – 8:00 PM. Night travel is subject to driver consent and additional night charges."
+  ],
+  "ticketsPolicy": [
+    "Musafir Pakistan does not include train, bus, or air tickets to Islamabad by default city.",
+    "Ticket booking concierge service is available upon request with a flat PKR 200 service charge per ticket.",
+    "Any ticketing platform or terminal charges are borne by the traveler.",
+    "Seats are reserved based on live availability and seat layouts pre-approved by the client.",
+    "Confirmed E-tickets are shared via WhatsApp within 24 hours of confirmation.",
+    "Musafir Pakistan is not liable for delays, schedule revisions, or cancellations made by airlines, bus terminals, or railways.",
+    "Ticket refund or date change rules are strictly governed by the respective carrier authority."
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Syed Daniyal & Family",
+    "city": "Karachi",
+    "trip": "5 Days Swat & Kalam Valley",
+    "rating": 5,
+    "date": "August 2026",
+    "comment": "Travelling from Karachi with elderly parents and kids was our biggest concern, but Musafir Pakistan handled everything flawlessly. The Grand Cabin transport was in pristine condition, and the tour guide kept the whole group cheerful and punctual. The bonfire in Kalam under the stars was the highlight of our trip!",
+    "verified": true
+  },
+  {
+    "id": 2,
+    "name": "Hassan & Zainab",
+    "city": "Lahore",
+    "trip": "6 Days Luxury Skardu Honeymoon",
+    "rating": 5,
+    "date": "July 2026",
+    "comment": "Unbelievable experience in Skardu! The glamping pods, the candlelight setup at Arcadian, and the private Prado chauffeur made our honeymoon unforgettable. Every single detail promised in the itinerary was delivered 100%. Highly recommended for couples looking for luxury and privacy.",
+    "verified": true
+  },
+  {
+    "id": 3,
+    "name": "Hamza Tariq & Friends",
+    "city": "Islamabad",
+    "trip": "7 Days Hunza & Fairy Meadows",
+    "rating": 5,
+    "date": "September 2026",
+    "comment": "Hands down the best tour management in Pakistan. Our guide Ashir took care of every meal, hotel check-in, and boating ticket at Attabad Lake without us having to stand in lines. The musical night and BBQ in Karimabad were top tier. Seamless, hassle-free travel is truly their hallmark!",
+    "verified": true
+  },
+  {
+    "id": 4,
+    "name": "Dr. Fatima Noor",
+    "city": "Rawalpindi",
+    "trip": "5 Days Naran & Babusar Top",
+    "rating": 5,
+    "date": "June 2026",
+    "comment": "As a solo female traveler joining a group tour, safety and environment were my top priorities. Musafir Pakistan provided a remarkably respectful and family-friendly atmosphere. The food was fresh, hot, and delicious throughout. Will definitely travel with them again.",
+    "verified": true
+  },
+  {
+    "id": 5,
+    "name": "Usman Sheikh",
+    "city": "Karachi",
+    "trip": "6 Days Kashmir & Taobut Tour",
+    "rating": 5,
+    "date": "May 2026",
+    "comment": "The hike to Arang Kel and the drive to untouched Taobut was something out of a fairy tale. The Coaster was extremely comfortable for the long drive from Islamabad, and the team accommodated everyone’s requests warmly. 10/10 service!",
+    "verified": true
+  },
+  {
+    "id": 6,
+    "name": "Bilal Ahmed & Group",
+    "city": "Faisalabad",
+    "trip": "8 Days Skardu Desert & Lakes",
+    "rating": 5,
+    "date": "August 2026",
+    "comment": "From Sarfaranga ATV rides to Shangrila morning views, everything was smooth. What impressed us most was their transparency—no hidden charges, no sudden changes. What was written on the package was exactly what we received.",
+    "verified": true
+  }
+]

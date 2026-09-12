@@ -1,0 +1,450 @@
+[
+  {
+    "id": "arcadian-skardu",
+    "name": "Arcadian Resort Skardu",
+    "location": "Skardu, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.8 / 5.0",
+    "reviewCount": 128,
+    "category": "Luxury Resort",
+    "image": "/images/hotels/arcadian-2.jpg",
+    "gallery": [
+      "/images/hotels/arcadian-2.jpg",
+      "/images/hotels/arcadian-1.jpg",
+      "/images/hotels/arcadian-3.jpg",
+      "/images/hotels/arcadian-4.jpg"
+    ],
+    "pricePerNight": 28000,
+    "description": "Nestled along the pristine Indus and Kachura valley streams with uninterrupted panoramic Karakoram vistas. Arcadian Resort Skardu is celebrated for its bespoke timber chalets, riverfront bonfire setups, fine Balti culinary heritage, and serene natural ambiance. Every chalet is designed with thermal insulation, warm wooden craftsmanship, and expansive mountain-facing glass fronts.",
+    "highlights": [
+      "Riverfront wooden chalets with private balconies",
+      "Direct views of snowy Karakoram range & Kachura streams",
+      "Evening bonfire & BBQ setup on manicured lawns",
+      "Thermal room heating & 24/7 continuous hot water"
+    ],
+    "amenities": [
+      "24/7 Hot Water",
+      "Room Heating",
+      "Free High-Speed Wi-Fi",
+      "Private Mountain Balcony",
+      "Bonfire & BBQ Lawn",
+      "In-House Restaurant",
+      "Generator Power Backup",
+      "Complimentary Breakfast",
+      "Secured Private Parking",
+      "Concierge & Tour Desk"
+    ],
+    "roomTypes": [
+      {
+        "id": "deluxe-chalet",
+        "name": "Deluxe Riverside Chalet",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults",
+        "price": 28000,
+        "features": ["River View Balcony", "Room Heating", "Attached Bath", "Breakfast Included"]
+      },
+      {
+        "id": "executive-suite",
+        "name": "Executive Karakoram Suite",
+        "bed": "1 King Bed + 1 Single Bed",
+        "capacity": "3 Adults",
+        "price": 36000,
+        "features": ["Panoramic Glass Windows", "Lounge Seating", "Fireplace", "Breakfast & Dinner"]
+      },
+      {
+        "id": "family-chalet",
+        "name": "Two-Bedroom Family Cottage",
+        "bed": "2 King Beds",
+        "capacity": "4 - 5 Adults",
+        "price": 52000,
+        "features": ["Two En-suite Baths", "Private Garden Patio", "Dedicated Butler Service"]
+      }
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 72 hours before arrival date. 50% charge within 48 hours."
+    },
+    "locationDetails": {
+      "address": "Lower Kachura Road, Skardu, Gilgit-Baltistan",
+      "nearby": [
+        "Upper Kachura Lake (12 mins)",
+        "Shangrila Resort & Lake (15 mins)",
+        "Skardu International Airport (25 mins)",
+        "Sarfaranga Cold Desert (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "candela-resort-skardu",
+    "name": "Candela Resort Skardu",
+    "location": "Skardu Valley, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.7 / 5.0",
+    "reviewCount": 94,
+    "category": "Deluxe Resort",
+    "image": "/images/hotels/candela-1.webp",
+    "gallery": [
+      "/images/hotels/candela-1.webp",
+      "/images/hotels/candela-2.webp",
+      "/images/hotels/candela-3.webp",
+      "/images/hotels/candela-4.webp"
+    ],
+    "pricePerNight": 22000,
+    "description": "A premier retreat offering spacious master suites, landscaped valley gardens, 24/7 concierge, and direct access to Sarfaranga desert and Shigar expeditions. Built with contemporary mountain architecture, Candela Resort ensures maximum tranquility and modern comfort in the heart of Baltistan.",
+    "highlights": [
+      "Expansive floor-to-ceiling glass mountain viewing suites",
+      "Landscaped alpine garden with outdoor tea terraces",
+      "Authentic Balti, Pakistani, and Continental fine dining",
+      "Dedicated 4x4 safari and desert excursion assistance"
+    ],
+    "amenities": [
+      "Mountain & River Views",
+      "Central Heating",
+      "Complimentary Breakfast",
+      "Attached Modern Bath",
+      "Free Parking",
+      "Power Backup",
+      "Free High-Speed Wi-Fi",
+      "Round-the-Clock Room Service",
+      "Airport Pick & Drop Assistance"
+    ],
+    "roomTypes": [
+      {
+        "id": "deluxe-mountain",
+        "name": "Deluxe Mountain View Room",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults",
+        "price": 22000,
+        "features": ["Mountain Vista", "Central Heating", "LED TV", "Breakfast Included"]
+      },
+      {
+        "id": "executive-panoramic",
+        "name": "Executive Panoramic Suite",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults + 1 Child",
+        "price": 29000,
+        "features": ["360 Mountain View", "Living Area", "Mini Bar Setup", "Breakfast Included"]
+      },
+      {
+        "id": "family-suite",
+        "name": "Grand Family Suite",
+        "bed": "2 Double Beds",
+        "capacity": "4 Adults",
+        "price": 38000,
+        "features": ["Connecting Rooms", "Private Balcony", "Bathtub & Shower", "Breakfast Included"]
+      }
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to check-in."
+    },
+    "locationDetails": {
+      "address": "Near Gamba Skardu, Gilgit-Baltistan",
+      "nearby": [
+        "Sarfaranga Cold Desert (20 mins)",
+        "Skardu Main Bazaar (15 mins)",
+        "Manthal Buddha Rock (25 mins)",
+        "Shigar Fort (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "qayyam-skardu",
+    "name": "Qayyam Hotel Skardu",
+    "location": "Main Skardu City, Gilgit-Baltistan",
+    "destination": "Skardu",
+    "rating": "4.5 / 5.0",
+    "reviewCount": 86,
+    "category": "Executive Hotel",
+    "image": "/images/hotels/qayyam-skardu-1.webp",
+    "gallery": [
+      "/images/hotels/qayyam-skardu-1.webp",
+      "/images/hotels/qayyam-skardu-2.webp",
+      "/images/hotels/qayyam-skardu-3.webp",
+      "/images/hotels/qayyam-skardu-4.webp"
+    ],
+    "pricePerNight": 14000,
+    "description": "Ideal for families and group travelers looking for premier city-center convenience. Centrally situated near Skardu bazaar, offering comfortable executive rooms, secure parking, power generator backup, and round-the-clock room service with authentic local hospitality.",
+    "highlights": [
+      "Prime central Skardu location close to bazaars & restaurants",
+      "Spacious family rooms and interconnecting suites",
+      "24-hour generator power backup and hot water",
+      "Generous on-site parking for Prado 4x4s and coasters"
+    ],
+    "amenities": [
+      "Hot & Cold Running Water",
+      "Free Wi-Fi",
+      "Family Suites Available",
+      "On-Site Traditional Dining",
+      "Power Generator Backup",
+      "24/7 Front Desk",
+      "Laundry Service",
+      "Driver Accommodation Available"
+    ],
+    "roomTypes": [
+      {
+        "id": "standard-double",
+        "name": "Standard Double Room",
+        "bed": "1 Double Bed",
+        "capacity": "2 Adults",
+        "price": 14000,
+        "features": ["City View", "Hot Water", "Wi-Fi", "Breakfast Included"]
+      },
+      {
+        "id": "executive-room",
+        "name": "Executive Valley Room",
+        "bed": "1 King Bed + 1 Single",
+        "capacity": "3 Adults",
+        "price": 18000,
+        "features": ["Mountain View", "Tea Maker", "Room Heater", "Breakfast Included"]
+      },
+      {
+        "id": "family-triple",
+        "name": "Family Four-Bed Suite",
+        "bed": "2 Double Beds",
+        "capacity": "4 Adults",
+        "price": 24000,
+        "features": ["Attached Modern Bath", "Large Wardrobe", "Seating Area"]
+      }
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "College Road, Near Yadgar Chowk, Skardu",
+      "nearby": [
+        "Skardu Historic Bazaar (3 mins walk)",
+        "Kharpocho Fort (10 mins drive)",
+        "Sadpara Lake (25 mins drive)",
+        "Deosai Plains Gateway (40 mins drive)"
+      ]
+    }
+  },
+  {
+    "id": "eliet-hotel-hunza",
+    "name": "Eliet Hotel Hunza",
+    "location": "Karimabad, Hunza Valley",
+    "destination": "Hunza",
+    "rating": "4.9 / 5.0",
+    "reviewCount": 164,
+    "category": "Boutique Mountain Hotel",
+    "image": "/images/hotels/eliet-1.webp",
+    "gallery": [
+      "/images/hotels/eliet-1.webp",
+      "/images/hotels/eliet-2.webp",
+      "/images/hotels/eliet-3.webp",
+      "/images/hotels/eliet-4.webp"
+    ],
+    "pricePerNight": 18000,
+    "description": "Overlooking the legendary Ultar Sar, Ladyfinger Peak, and Rakaposhi sunrise. Within walking distance to ancient Baltit Fort and Karimabad cobblestone handicrafts market, Eliet Hotel combines traditional Hunza woodcraft with luxury modern amenities and organic farm-to-table dining.",
+    "highlights": [
+      "Unrivaled views of Ultar Sar, Ladyfinger & Rakaposhi",
+      "5-minute stroll to historic 700-year-old Baltit Fort",
+      "Rooftop panoramic café & authentic apricot wood BBQ",
+      "Thermal room heating and uninterrupted hot showers"
+    ],
+    "amenities": [
+      "Panoramic Rooftop Terrace",
+      "Heated Rooms",
+      "Authentic Hunza Cuisine",
+      "High-Speed Wi-Fi",
+      "24/7 Hot Water",
+      "Apricot Garden Strolls",
+      "Generator Power Backup",
+      "Complimentary Local Breakfast",
+      "Free Parking"
+    ],
+    "roomTypes": [
+      {
+        "id": "deluxe-baltit",
+        "name": "Deluxe Baltit Mountain View",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults",
+        "price": 18000,
+        "features": ["Balcony facing Ultar Sar", "Room Heater", "Traditional Woodwork", "Breakfast"]
+      },
+      {
+        "id": "royal-rakaposhi",
+        "name": "Royal Rakaposhi View Suite",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults + 1 Child",
+        "price": 26000,
+        "features": ["Corner Panoramic Window", "Luxury Bath", "Sitting Area", "Breakfast"]
+      },
+      {
+        "id": "family-haven",
+        "name": "Karimabad Family Penthouse",
+        "bed": "2 King Beds",
+        "capacity": "4 Adults",
+        "price": 35000,
+        "features": ["Private Rooftop Access", "Two Attached Baths", "Complimentary High Tea"]
+      }
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 72 hours prior to arrival date."
+    },
+    "locationDetails": {
+      "address": "Upper Karimabad Road, Hunza Valley, Gilgit-Baltistan",
+      "nearby": [
+        "Baltit Fort (7 mins walk)",
+        "Karimabad Heritage Bazaar (4 mins walk)",
+        "Altit Fort & Royal Garden (12 mins drive)",
+        "Attabad Lake (25 mins drive)",
+        "Eagle's Nest Duikar (20 mins drive)"
+      ]
+    }
+  },
+  {
+    "id": "alvi-hotel-hunza",
+    "name": "Alvi Hotel Hunza",
+    "location": "Aliabad, Hunza Valley",
+    "destination": "Hunza",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 78,
+    "category": "Deluxe Hotel",
+    "image": "/images/hotels/alvi-1.webp",
+    "gallery": [
+      "/images/hotels/alvi-1.webp",
+      "/images/hotels/alvi-2.webp",
+      "/images/hotels/alvi-3.webp"
+    ],
+    "pricePerNight": 15000,
+    "description": "A favorite for discerning travelers along the Karakoram Highway. Featuring modern architectural design, spotless hygiene, direct KKH highway access, and warm Gilgiti hospitality. Ideal for families and tour convoys exploring Upper and Central Hunza.",
+    "highlights": [
+      "Direct highway access with easy bus and car parking",
+      "Modern clean aesthetic with acoustic double-glazed windows",
+      "Reliable generator backup and round-the-clock hot water",
+      "On-site restaurant serving hearty Pakistani and Chinese cuisine"
+    ],
+    "amenities": [
+      "Free Breakfast Included",
+      "Room Service",
+      "Hot Showers",
+      "Direct KKH Access",
+      "Secure Gated Parking",
+      "Power Generator Backup",
+      "Free Wi-Fi",
+      "Luggage Storage"
+    ],
+    "roomTypes": [
+      {
+        "id": "deluxe-double",
+        "name": "Deluxe Double Room",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults",
+        "price": 15000,
+        "features": ["Valley View", "Room Heater", "Modern En-suite Bath", "Breakfast"]
+      },
+      {
+        "id": "executive-twin",
+        "name": "Executive Twin Room",
+        "bed": "2 Single Beds",
+        "capacity": "2 Adults",
+        "price": 17000,
+        "features": ["Spacious Desk", "Mountain Facing", "Hot Water", "Breakfast"]
+      },
+      {
+        "id": "family-quad",
+        "name": "Family Four-Bed Suite",
+        "bed": "2 Double Beds",
+        "capacity": "4 Adults",
+        "price": 25000,
+        "features": ["Attached Bath", "LED TV", "Complimentary Tea Tray"]
+      }
+    ],
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours before check-in."
+    },
+    "locationDetails": {
+      "address": "Main Karakoram Highway, Aliabad, Hunza",
+      "nearby": [
+        "Aliabad Commercial Center (2 mins)",
+        "Ganish Historic Village (8 mins)",
+        "Karimabad Town (10 mins)",
+        "Hoper Glacier Valley (45 mins)"
+      ]
+    }
+  },
+  {
+    "id": "qayyam-hunza",
+    "name": "Qayyam Hotel Hunza",
+    "location": "Hunza Valley, Gilgit-Baltistan",
+    "destination": "Hunza",
+    "rating": "4.6 / 5.0",
+    "reviewCount": 92,
+    "category": "Family Friendly",
+    "image": "/images/hotels/qayyam-hunza-1.webp",
+    "gallery": [
+      "/images/hotels/qayyam-hunza-1.webp",
+      "/images/hotels/qayyam-hunza-2.webp",
+      "/images/hotels/qayyam-hunza-3.webp",
+      "/images/hotels/qayyam-hunza-4.webp"
+    ],
+    "pricePerNight": 16000,
+    "description": "Spectacular sunrise views over Mount Rakaposhi and Diran peak. Specifically designed to cater to families and tour groups with expansive bedding layouts, lush garden lawns, and curated northern culinary offerings.",
+    "highlights": [
+      "Direct majestic panorama of Mount Rakaposhi (7,788m)",
+      "Large family interconnecting suites with modern amenities",
+      "Scenic outdoor dining lawn surrounded by fruit orchards",
+      "Dedicated secure coach and vehicle parking space"
+    ],
+    "amenities": [
+      "Rakaposhi & Diran Views",
+      "Interconnecting Rooms",
+      "Hot Water Facility",
+      "Desi & Continental Menu",
+      "Wi-Fi Connectivity",
+      "Power Generator Backup",
+      "Garden Bonfire Setup",
+      "24/7 Front Desk"
+    ],
+    "roomTypes": [
+      {
+        "id": "deluxe-rakaposhi",
+        "name": "Deluxe Rakaposhi Facing Room",
+        "bed": "1 King Bed",
+        "capacity": "2 Adults",
+        "price": 16000,
+        "features": ["Direct Peak View", "Hot Shower", "Room Heater", "Breakfast"]
+      },
+      {
+        "id": "family-triple-room",
+        "name": "Family Triple Suite",
+        "bed": "1 Double + 1 Single Bed",
+        "capacity": "3 Adults",
+        "price": 21000,
+        "features": ["Garden View", "Seating Lounge", "Attached Bath", "Breakfast"]
+      },
+      {
+        "id": "interconnecting-suite",
+        "name": "Interconnecting Family Suite",
+        "bed": "2 Double Beds",
+        "capacity": "4 - 5 Adults",
+        "price": 30000,
+        "features": ["Two Connecting Bedrooms", "Two Baths", "Balcony"]
+      }
+    ],
+    "policies": {
+      "checkIn": "2:00 PM",
+      "checkOut": "12:00 PM",
+      "cancellation": "Free cancellation up to 48 hours prior to check-in."
+    },
+    "locationDetails": {
+      "address": "Near KKH Viewpoint, Hunza Valley, Gilgit-Baltistan",
+      "nearby": [
+        "Rakaposhi Viewpoint (15 mins)",
+        "Baltit Fort (15 mins drive)",
+        "Passu Cones (55 mins drive)",
+        "Khunjerab National Park (2.5 hrs drive)"
+      ]
+    }
+  }
+]

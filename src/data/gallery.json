@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "image": "/images/gallery/gallery-10.png",
+    "title": "Group Expedition Celebration",
+    "location": "Hunza Valley",
+    "category": "Group Expeditions"
+  },
+  {
+    "id": 2,
+    "image": "/images/gallery/gallery-1.jfif",
+    "title": "Alpine River Crossing",
+    "location": "Swat & Kalam",
+    "category": "Landscapes"
+  },
+  {
+    "id": 3,
+    "image": "/images/gallery/gallery-11.jpg",
+    "title": "Group Departure Gathering",
+    "location": "Islamabad Departure Point",
+    "category": "Group Expeditions"
+  },
+  {
+    "id": 4,
+    "image": "/images/gallery/gallery-12.jpeg",
+    "title": "Starlit Bonfire & Music Night",
+    "location": "Kalam, Swat",
+    "category": "Bonfire & Camping"
+  },
+  {
+    "id": 5,
+    "image": "/images/gallery/gallery-2.jpg",
+    "title": "Emerald Waters of Mohadand",
+    "location": "Upper Swat Valley",
+    "category": "Landscapes"
+  },
+  {
+    "id": 6,
+    "image": "/images/gallery/gallery-13.jpeg",
+    "title": "Mountain Travellers Summit",
+    "location": "Babusar Top (13,700 ft)",
+    "category": "Group Expeditions"
+  },
+  {
+    "id": 7,
+    "image": "/images/gallery/gallery-3.jpg",
+    "title": "Autumn Valley Panorama",
+    "location": "Hunza, Gilgit-Baltistan",
+    "category": "Landscapes"
+  },
+  {
+    "id": 8,
+    "image": "/images/gallery/gallery-14.jpeg",
+    "title": "Campfire Stories & Tea Session",
+    "location": "Naran Valley",
+    "category": "Bonfire & Camping"
+  },
+  {
+    "id": 9,
+    "image": "/images/gallery/gallery-4.jfif",
+    "title": "Scenic Pine Forest Trek",
+    "location": "Arang Kel, Kashmir",
+    "category": "Landscapes"
+  },
+  {
+    "id": 10,
+    "image": "/images/gallery/gallery-15.jpeg",
+    "title": "Lakeside Memories",
+    "location": "Saif-ul-Malook Lake",
+    "category": "Group Expeditions"
+  },
+  {
+    "id": 11,
+    "image": "/images/gallery/gallery-5.jfif",
+    "title": "Cold Desert Dunes",
+    "location": "Katpana Desert, Skardu",
+    "category": "Landscapes"
+  },
+  {
+    "id": 12,
+    "image": "/images/gallery/gallery-6.png",
+    "title": "Highland Camping Experience",
+    "location": "Sharan Forest",
+    "category": "Bonfire & Camping"
+  },
+  {
+    "id": 13,
+    "image": "/images/gallery/gallery-7.png",
+    "title": "Passu Cones Golden Hour",
+    "location": "Upper Hunza",
+    "category": "Landscapes"
+  },
+  {
+    "id": 14,
+    "image": "/images/gallery/gallery-8.png",
+    "title": "Glacial Lake Boating",
+    "location": "Attabad Lake",
+    "category": "Group Expeditions"
+  },
+  {
+    "id": 15,
+    "image": "/images/gallery/gallery-9.png",
+    "title": "Karakoram Highway Road Trip",
+    "location": "KKH, Gilgit",
+    "category": "Landscapes"
+  }
+]

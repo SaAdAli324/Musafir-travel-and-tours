@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI reference content (PDFs, raw source images — not used in production)
+/public/Gallery Photos.-20260908T115940Z-1-001/
+/public/Group Packages PDF-20260909T161101Z-1-001/
+/public/Group Packages Posters-20260909T161103Z-1-001/
+/public/Hotels.-20260908T115941Z-1-001/
+/public/Transports.-20260908T115943Z-1-001/
